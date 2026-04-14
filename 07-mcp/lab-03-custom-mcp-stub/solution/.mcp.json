@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "lab-stub": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "server.py"
+      ]
+    }
+  }
+}

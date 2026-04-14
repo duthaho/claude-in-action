@@ -1,0 +1,19 @@
+{
+  "cases": [
+    {
+      "name": "basic",
+      "input": "Hello, World!",
+      "expected": "hello-world"
+    },
+    {
+      "name": "collapses-spaces",
+      "input": "  multiple   spaces  ",
+      "expected": "multiple spaces"
+    },
+    {
+      "name": "pure-punctuation",
+      "input": "!!!",
+      "expected": ""
+    }
+  ]
+}

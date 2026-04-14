@@ -1,0 +1,11 @@
+title: "Allowlist & Denylist"
+section: "03-configuration-and-permissions"
+slug: "lab-02-allowlist-denylist"
+difficulty: beginner
+est_minutes: 25
+tags:
+  - permissions
+  - security
+  - settings
+prerequisites:
+  - lab-01-settings-tour

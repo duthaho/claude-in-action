@@ -1,0 +1,9 @@
+{
+  "model": "claude-sonnet-4-5",
+  "env": {
+    "LAB_MODE": "true"
+  },
+  "permissions": {
+    "defaultMode": "acceptEdits"
+  }
+}

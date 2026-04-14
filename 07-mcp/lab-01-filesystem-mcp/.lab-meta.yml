@@ -1,0 +1,10 @@
+title: "Filesystem MCP"
+section: "07-mcp"
+slug: "lab-01-filesystem-mcp"
+difficulty: beginner
+est_minutes: 20
+tags:
+  - mcp
+  - filesystem
+  - configuration
+prerequisites: []

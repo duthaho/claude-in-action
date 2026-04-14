@@ -1,0 +1,12 @@
+title: "Skill Evaluation"
+section: "04-skills"
+slug: "lab-03-skill-evaluation"
+difficulty: intermediate
+est_minutes: 35
+tags:
+  - skills
+  - evals
+  - testing
+prerequisites:
+  - lab-01-first-skill
+  - lab-02-skill-with-resources

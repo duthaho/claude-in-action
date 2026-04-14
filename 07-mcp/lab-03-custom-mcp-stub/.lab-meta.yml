@@ -1,0 +1,13 @@
+title: "Custom MCP Stub"
+section: "07-mcp"
+slug: "lab-03-custom-mcp-stub"
+difficulty: intermediate
+est_minutes: 40
+tags:
+  - mcp
+  - protocol
+  - json-rpc
+  - python
+prerequisites:
+  - lab-01-filesystem-mcp
+  - lab-02-sqlite-mcp

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Read",
+      "Grep",
+      "Glob",
+      "LS"
+    ],
+    "deny": [
+      "Read(./secrets/**)",
+      "Edit(./secrets/**)"
+    ]
+  }
+}

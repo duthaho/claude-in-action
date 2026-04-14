@@ -14,17 +14,17 @@ You need these to get anything else done.
 2. **[02 — Memory](02-memory/)** — v1.0
    How Claude Code knows things about your project across sessions. After this, you stop re-explaining the same conventions every time.
 
-3. **[03 — Configuration & Permissions](03-configuration-and-permissions/)** — coming in v1.1
+3. **[03 — Configuration & Permissions](03-configuration-and-permissions/)** — v1.1
    `settings.json`, allowlists, permission modes. This is the safety net for everything that follows.
 
 ## Phase 2 — Extending Claude (the power tools)
 
 Each of these gives Claude a new capability.
 
-4. **[04 — Skills](04-skills/)** — coming in v1.1
+4. **[04 — Skills](04-skills/)** — v1.1
    Auto-loading bundles of instructions + resources. Skills are how you give Claude durable expertise it can bring to many projects.
 
-5. **[07 — MCP](07-mcp/)** — coming in v1.1
+5. **[07 — MCP](07-mcp/)** — v1.1
    Model Context Protocol: plug Claude into external tools (databases, APIs, filesystems) with a standard interface.
 
 6. **[08 — Hooks](08-hooks/)** — coming in v1.2

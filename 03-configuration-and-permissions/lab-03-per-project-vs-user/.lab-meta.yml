@@ -1,0 +1,12 @@
+title: "Per-Project vs User Settings"
+section: "03-configuration-and-permissions"
+slug: "lab-03-per-project-vs-user"
+difficulty: intermediate
+est_minutes: 30
+tags:
+  - settings
+  - precedence
+  - debugging
+prerequisites:
+  - lab-01-settings-tour
+  - lab-02-allowlist-denylist

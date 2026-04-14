@@ -1,0 +1,30 @@
+{
+  "cases": [
+    {
+      "name": "basic",
+      "input": "Hello, World!",
+      "expected": "hello-world"
+    },
+    {
+      "name": "collapses-spaces",
+      "input": "  multiple   spaces  ",
+      "expected": "multiple-spaces"
+    },
+    {
+      "name": "pure-punctuation",
+      "input": "!!!",
+      "expected": "untitled"
+    },
+    {
+      "name": "long-truncated",
+      "input": "this title is deliberately written to be longer than sixty characters so truncation can fire",
+      "expected": "this-title-is-deliberately-written-to-be-longer-than-sixty-c"
+    },
+    {
+      "name": "unicode-transliteration-expected-failure",
+      "input": "na\u00efve implementation",
+      "expected": "naive-implementation",
+      "expected_failure": true
+    }
+  ]
+}

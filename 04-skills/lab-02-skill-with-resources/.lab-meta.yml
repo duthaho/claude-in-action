@@ -1,0 +1,12 @@
+title: "Skill with Bundled Resources"
+section: "04-skills"
+slug: "lab-02-skill-with-resources"
+difficulty: beginner
+est_minutes: 30
+tags:
+  - skills
+  - resources
+  - templates
+  - adr
+prerequisites:
+  - lab-01-first-skill

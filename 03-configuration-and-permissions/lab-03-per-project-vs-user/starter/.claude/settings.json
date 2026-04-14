@@ -1,0 +1,7 @@
+{
+  "model": "claude-opus-4-6",
+  "env": {},
+  "permissions": {
+    "defaultMode": "acceptEdits"
+  }
+}

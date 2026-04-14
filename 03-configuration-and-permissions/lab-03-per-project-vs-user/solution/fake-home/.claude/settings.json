@@ -1,0 +1,10 @@
+{
+  "model": "claude-sonnet-4-5",
+  "env": {
+    "EDITOR": "vim"
+  },
+  "permissions": {
+    "defaultMode": "bypassPermissions"
+  },
+  "apiKeyHelper": "~/.claude/anthropic_key_helper.sh"
+}
