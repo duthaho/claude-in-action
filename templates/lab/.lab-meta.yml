@@ -1,0 +1,9 @@
+title: "<Lab title — human readable>"
+section: "<NN-section-slug>"
+slug: "lab-NN-<slug>"
+difficulty: beginner    # beginner | intermediate
+est_minutes: 20
+tags:
+  - <tag1>
+  - <tag2>
+prerequisites: []       # list of lab slugs, e.g. ["lab-01-hello-command"]

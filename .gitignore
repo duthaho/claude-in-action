@@ -1,0 +1,35 @@
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+.npm/
+.pnpm-store/
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Local Claude state
+.claude/local/
+.claude/logs/
+
+# Build output
+dist/
+build/
+*.egg-info/

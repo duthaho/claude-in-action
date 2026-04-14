@@ -1,0 +1,12 @@
+title: "Imports and Layers"
+section: "02-memory"
+slug: "lab-02-imports-and-layers"
+difficulty: beginner
+est_minutes: 25
+tags:
+  - memory
+  - imports
+  - layers
+  - precedence
+prerequisites:
+  - lab-01-project-claude-md

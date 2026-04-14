@@ -1,0 +1,13 @@
+title: "Multi-Step Refactor Command"
+section: "01-slash-commands"
+slug: "lab-03-multi-step-refactor"
+difficulty: intermediate
+est_minutes: 35
+tags:
+  - slash-commands
+  - python
+  - multi-step
+  - error-handling
+prerequisites:
+  - lab-01-hello-command
+  - lab-02-commit-command

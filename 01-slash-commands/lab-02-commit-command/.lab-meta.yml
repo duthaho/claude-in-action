@@ -1,0 +1,11 @@
+title: "Commit Command"
+section: "01-slash-commands"
+slug: "lab-02-commit-command"
+difficulty: beginner
+est_minutes: 25
+tags:
+  - slash-commands
+  - git
+  - conventional-commits
+prerequisites:
+  - lab-01-hello-command

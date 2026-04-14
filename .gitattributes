@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Deprioritize solution dirs in GitHub search and diffs so learners
+# don't accidentally spoil themselves while browsing the repo.
+**/solution/** linguist-generated=true

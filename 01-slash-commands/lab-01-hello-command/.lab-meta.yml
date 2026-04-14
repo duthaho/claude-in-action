@@ -1,0 +1,9 @@
+title: "Hello Command"
+section: "01-slash-commands"
+slug: "lab-01-hello-command"
+difficulty: beginner
+est_minutes: 15
+tags:
+  - slash-commands
+  - first-steps
+prerequisites: []

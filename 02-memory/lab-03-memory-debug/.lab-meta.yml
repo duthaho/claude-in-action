@@ -1,0 +1,12 @@
+title: "Memory Debug"
+section: "02-memory"
+slug: "lab-03-memory-debug"
+difficulty: intermediate
+est_minutes: 30
+tags:
+  - memory
+  - debugging
+  - precedence
+prerequisites:
+  - lab-01-project-claude-md
+  - lab-02-imports-and-layers
