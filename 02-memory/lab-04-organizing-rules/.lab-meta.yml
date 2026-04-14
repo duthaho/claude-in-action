@@ -1,0 +1,12 @@
+title: "Organizing Rules"
+section: "02-memory"
+slug: "lab-04-organizing-rules"
+difficulty: beginner
+est_minutes: 25
+tags:
+  - memory
+  - rules
+  - organization
+prerequisites:
+  - lab-01-project-claude-md
+  - lab-02-imports-and-layers

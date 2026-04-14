@@ -4,6 +4,20 @@ All notable changes to `claude-in-action` are documented here. Format follows [K
 
 ## [Unreleased]
 
+## [0.2.1] — 2026-04-14
+
+Two supplementary labs added to existing sections. No new sections.
+
+### Added
+
+- **`02-memory/lab-04-organizing-rules`** — decompose a bloated `CLAUDE.md` into topic-scoped files under `.claude/rules/`, auto-discovered by Claude. Contrasts the `.claude/rules/` mechanism with the `@import` approach from lab 02.
+- **`03-configuration-and-permissions/lab-04-output-styles`** — author a custom `terse` output style, wire it via `.claude/settings.json`, and work through a classification exercise separating "style" rules from "memory" rules.
+
+### Changed
+
+- Section 02 and Section 03 READMEs updated with the new labs and expanded learning objectives.
+- Total built labs: 15 → 17 (~455 min of practice).
+
 ## [0.2.0] — 2026-04-14
 
 v1.1 content milestone: three new sections built, taking the repo from 6 labs to 15.
@@ -56,6 +70,7 @@ Initial scaffolding release. Proves the lab format end-to-end with two fully-bui
 - **v1.3**: sections 10 (Plugins), 11 (Checkpoints).
 - **v2.0**: sections 09 (Channels), 12 (Advanced Features), 13 (CLI); Tier-3 CI verification.
 
-[Unreleased]: https://github.com/duthaho/claude-in-action/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/duthaho/claude-in-action/compare/v0.2.1...HEAD
+[0.2.1]: https://github.com/duthaho/claude-in-action/releases/tag/v0.2.1
 [0.2.0]: https://github.com/duthaho/claude-in-action/releases/tag/v0.2.0
 [0.1.0]: https://github.com/duthaho/claude-in-action/releases/tag/v0.1.0

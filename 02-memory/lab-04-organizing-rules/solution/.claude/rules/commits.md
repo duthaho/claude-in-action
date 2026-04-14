@@ -1,0 +1,5 @@
+- Conventional Commits only. Types: `feat`, `fix`, `chore`, `docs`, `refactor`, `test`.
+- Subject under 72 characters, imperative mood, no trailing period.
+- Body is optional but when present should explain *why*, not *what*.
+- One logical change per commit. No "wip" commits on main.
+- Never commit secrets, API keys, or `.env` files. `./todos.json` is tracked intentionally for demo purposes only.

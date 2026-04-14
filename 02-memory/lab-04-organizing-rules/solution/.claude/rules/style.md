@@ -1,0 +1,6 @@
+- Two blank lines between top-level functions.
+- Type hints on every public function.
+- f-strings only; never `.format()` or `%`.
+- Prefer `pathlib.Path` over `os.path`. Never mix them.
+- Double quotes for strings unless the string contains a double quote.
+- `from __future__ import annotations` at the top of every module.

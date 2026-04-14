@@ -12,6 +12,7 @@ After finishing these labs, you can:
 - Split memory across user, project, and local layers and reason about precedence
 - Use the `/memory` command to find out which layer is winning a conflict
 - Diagnose and fix common "Claude is ignoring my rule" bugs
+- Decompose a bloated `CLAUDE.md` into topic-scoped files under `.claude/rules/` and choose between that and `@import`
 
 ## Labs
 
@@ -20,6 +21,7 @@ After finishing these labs, you can:
 | 01 | [lab-01-project-claude-md](lab-01-project-claude-md/) | beginner | 20 min |
 | 02 | [lab-02-imports-and-layers](lab-02-imports-and-layers/) | beginner | 25 min |
 | 03 | [lab-03-memory-debug](lab-03-memory-debug/) | intermediate | 30 min |
+| 04 | [lab-04-organizing-rules](lab-04-organizing-rules/) | beginner | 25 min |
 
 ## References
 

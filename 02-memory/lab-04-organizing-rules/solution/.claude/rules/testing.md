@@ -1,0 +1,4 @@
+- No tests exist yet. When asked to add a feature, propose a corresponding test in the same commit.
+- Tests use stdlib `unittest`. Do not pull in `pytest` as a new dependency.
+- Every new subcommand needs at least one happy-path test and one error-path test.
+- Run tests with `python -m unittest -v`.

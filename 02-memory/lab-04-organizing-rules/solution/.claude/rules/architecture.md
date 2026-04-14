@@ -1,0 +1,4 @@
+- Entry point is `todo.py`, a single file with no package structure.
+- State lives in `./todos.json` in the current working directory.
+- Subcommand dispatch is hand-written in `main()`. No CLI framework (argparse, click, typer) and there should not be one.
+- Error handling: print to stderr and exit with code 2. Do not raise.

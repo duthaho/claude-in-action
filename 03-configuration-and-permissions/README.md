@@ -12,6 +12,7 @@ After finishing these labs, you can:
 - Build a deny list that keeps Claude out of a `secrets/` directory even in agentic mode
 - Predict which of user/project/local `settings.json` will win a conflict and verify the prediction
 - Use `/permissions` (or the equivalent flag) to see the merged view
+- Author a custom output style and decide when a behavior belongs in a style vs. in `CLAUDE.md`
 
 ## Labs
 
@@ -20,6 +21,7 @@ After finishing these labs, you can:
 | 01 | [lab-01-settings-tour](lab-01-settings-tour/) | beginner | 20 min |
 | 02 | [lab-02-allowlist-denylist](lab-02-allowlist-denylist/) | beginner | 25 min |
 | 03 | [lab-03-per-project-vs-user](lab-03-per-project-vs-user/) | intermediate | 30 min |
+| 04 | [lab-04-output-styles](lab-04-output-styles/) | beginner | 25 min |
 
 ## References
 
