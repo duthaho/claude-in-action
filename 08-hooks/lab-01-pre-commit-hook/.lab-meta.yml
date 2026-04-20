@@ -1,0 +1,11 @@
+title: "Pre-commit Hook"
+section: "08-hooks"
+slug: "lab-01-pre-commit-hook"
+difficulty: beginner
+est_minutes: 25
+tags:
+  - hooks
+  - pre-tool-use
+  - git
+prerequisites:
+  - 03-configuration-and-permissions/lab-01-settings-tour

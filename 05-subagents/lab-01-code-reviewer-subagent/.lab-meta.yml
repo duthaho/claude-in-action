@@ -1,0 +1,10 @@
+title: "Code Reviewer Subagent"
+section: "05-subagents"
+slug: "lab-01-code-reviewer-subagent"
+difficulty: beginner
+est_minutes: 25
+tags:
+  - subagents
+  - code-review
+  - tool-restrictions
+prerequisites: []

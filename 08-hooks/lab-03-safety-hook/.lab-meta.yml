@@ -1,0 +1,13 @@
+title: "Safety Hook — Deny Writes to prod/"
+section: "08-hooks"
+slug: "lab-03-safety-hook"
+difficulty: intermediate
+est_minutes: 30
+tags:
+  - hooks
+  - safety
+  - pre-tool-use
+  - testing
+prerequisites:
+  - lab-02-post-tool-logger
+  - 03-configuration-and-permissions/lab-02-allowlist-denylist

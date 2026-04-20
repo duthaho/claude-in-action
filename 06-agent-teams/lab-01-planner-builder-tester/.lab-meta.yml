@@ -1,0 +1,11 @@
+title: "Planner / Builder / Tester Team"
+section: "06-agent-teams"
+slug: "lab-01-planner-builder-tester"
+difficulty: intermediate
+est_minutes: 40
+tags:
+  - agent-teams
+  - orchestration
+  - subagent-definitions
+prerequisites:
+  - 05-subagents/lab-03-subagent-handoff

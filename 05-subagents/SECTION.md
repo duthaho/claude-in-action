@@ -2,10 +2,10 @@
 title: "Subagents"
 slug: "05-subagents"
 order: 5
-status: planned
+status: ready
 ships_in: v1.2
 prerequisites:
   - 04-skills
 ---
 
-Specialized Claude instances dispatched from your main session. Three labs planned.
+Specialised Claude instances dispatched from your main session. Three labs covering authoring, tool restrictions, and the handoff pattern.

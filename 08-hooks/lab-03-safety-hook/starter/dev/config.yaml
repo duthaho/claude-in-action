@@ -1,0 +1,6 @@
+environment: development
+region: us-east-1
+db_url: postgres://localhost:5432/app_dev
+feature_flags:
+  new_checkout: true
+  beta_search: true

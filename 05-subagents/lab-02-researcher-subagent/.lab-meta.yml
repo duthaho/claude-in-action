@@ -1,0 +1,12 @@
+title: "Researcher Subagent"
+section: "05-subagents"
+slug: "lab-02-researcher-subagent"
+difficulty: beginner
+est_minutes: 30
+tags:
+  - subagents
+  - read-only
+  - tool-restrictions
+  - documentation
+prerequisites:
+  - lab-01-code-reviewer-subagent

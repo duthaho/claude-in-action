@@ -1,0 +1,13 @@
+title: "Subagent Handoff"
+section: "05-subagents"
+slug: "lab-03-subagent-handoff"
+difficulty: intermediate
+est_minutes: 40
+tags:
+  - subagents
+  - orchestration
+  - pipeline
+  - composition
+prerequisites:
+  - lab-01-code-reviewer-subagent
+  - lab-02-researcher-subagent

@@ -43,10 +43,10 @@ bash scripts/new-lab.sh 01-slash-commands lab-99-my-experiment
 | 02 | [Memory](02-memory/) | v1.0 — built |
 | 03 | [Configuration & Permissions](03-configuration-and-permissions/) | v1.1 — built |
 | 04 | [Skills](04-skills/) | v1.1 — built |
-| 05 | [Subagents](05-subagents/) | coming in v1.2 |
-| 06 | [Agent Teams](06-agent-teams/) | coming in v1.2 |
+| 05 | [Subagents](05-subagents/) | v1.2 — built |
+| 06 | [Agent Teams](06-agent-teams/) | v1.2 — built |
 | 07 | [MCP](07-mcp/) | v1.1 — built |
-| 08 | [Hooks](08-hooks/) | coming in v1.2 |
+| 08 | [Hooks](08-hooks/) | v1.2 — built |
 | 09 | [Channels](09-channels/) | coming in v2.0 |
 | 10 | [Plugins](10-plugins/) | coming in v1.3 |
 | 11 | [Checkpoints](11-checkpoints/) | coming in v1.3 |
