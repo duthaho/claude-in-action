@@ -1,0 +1,12 @@
+title: "Headless Bot: File-Drop Channel"
+section: "09-channels"
+slug: "lab-02-headless-bot"
+difficulty: intermediate
+est_minutes: 35
+tags:
+  - channels
+  - headless
+  - automation
+  - bash
+prerequisites:
+  - lab-01-stream-json-consumer

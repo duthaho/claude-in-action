@@ -1,0 +1,10 @@
+title: "Background Tasks & Polling"
+section: "12-advanced-features"
+slug: "lab-01-background-tasks"
+difficulty: beginner
+est_minutes: 20
+tags:
+  - bash
+  - background
+  - polling
+prerequisites: []

@@ -2,10 +2,10 @@
 title: "Channels"
 slug: "09-channels"
 order: 9
-status: planned
+status: ready
 ships_in: v2.0
 prerequisites:
   - 08-hooks
 ---
 
-Event-driven push mechanisms for external systems. Two labs planned.
+Event-driven patterns for getting Claude into a pipeline: consume `claude -p --output-format stream-json` from a Node script, or run Claude as a file-drop bot. Two labs.

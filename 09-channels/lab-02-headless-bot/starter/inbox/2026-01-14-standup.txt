@@ -1,0 +1,8 @@
+Standup notes, 2026-01-14
+
+- Alice: finished the payment-retry bug. Blocked on ops approval for the new circuit-breaker config.
+- Bob: shipping the admin-panel audit log today. Picks up the Redis migration next.
+- Carol: out sick.
+- Dave: rolling back yesterday's feature-flag rename — the shadow traffic caught a regression in the pricing service. Will re-attempt after writing proper tests.
+
+Open question for the room: do we want to backport the payment-retry fix to 2025.12 LTS, or ship it only on main?

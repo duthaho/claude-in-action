@@ -1,0 +1,10 @@
+title: "CLI Flags Tour"
+section: "13-cli"
+slug: "lab-01-cli-flags-tour"
+difficulty: beginner
+est_minutes: 25
+tags:
+  - cli
+  - headless
+  - flags
+prerequisites: []

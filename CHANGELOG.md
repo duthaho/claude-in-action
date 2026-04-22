@@ -6,6 +6,22 @@ Cadence: one version per planned milestone (v1.0 → v0.1.0, v1.1 → v0.2.0, v1
 
 ## [Unreleased]
 
+## [1.0.0] — 2026-04-22
+
+v2.0 milestone: sections 09 (Channels), 12 (Advanced Features), 13 (CLI) built. 8 new labs. All 13 originally-planned sections are now built — this release closes the v1 scope. Bumped to 1.0.0 to signal that.
+
+### Added
+
+- **Section 09 — Channels**: Node consumer that parses the `claude -p --output-format stream-json` event stream into a five-line summary, and a headless shell bot that summarises every file dropped into `inbox/` into `outbox/` (idempotent on re-run).
+- **Section 12 — Advanced Features**: background-task launch + `BashOutput` polling against an ~18-second simulated build, screenshot-to-HTML reproduction of a product-card mockup, default-vs-`think-hard` comparison on a subtle `merge_intervals` bug.
+- **Section 13 — CLI**: five-flag tour driver script (`-p`, `--output-format`, `--append-system-prompt`, `--allowedTools`, `--max-turns`), access-log → JSON → markdown-report pipeline with canned-response CI fallback, GitHub Actions workflow that reviews every PR with read-only tools and a turn cap.
+
+### Changed
+
+- Sections 09, 12, 13 promoted from stubs to `status: ready`.
+- Top-level README section table marks 09/12/13 as v2.0 built. No stubs remain — the "Planned sections" table in `INDEX.md` is now empty.
+- `INDEX.md` regenerated to 38 labs, ~1085 minutes of practice total.
+
 ## [0.4.0] — 2026-04-22
 
 v1.3 milestone: sections 10 (Plugins), 11 (Checkpoints) built. 5 new labs.
@@ -64,7 +80,8 @@ Initial scaffolding release. Repo framework + the first two sections built; sect
 - **Section 01 — Slash Commands** and **Section 02 — Memory**, three labs each.
 - Stubs for sections 03–13.
 
-[Unreleased]: https://github.com/duthaho/claude-in-action/compare/v0.4.0...HEAD
+[Unreleased]: https://github.com/duthaho/claude-in-action/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/duthaho/claude-in-action/releases/tag/v1.0.0
 [0.4.0]: https://github.com/duthaho/claude-in-action/releases/tag/v0.4.0
 [0.3.0]: https://github.com/duthaho/claude-in-action/releases/tag/v0.3.0
 [0.2.0]: https://github.com/duthaho/claude-in-action/releases/tag/v0.2.0

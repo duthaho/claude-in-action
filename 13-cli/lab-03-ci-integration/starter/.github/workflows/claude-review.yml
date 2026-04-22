@@ -1,0 +1,68 @@
+name: Claude PR review
+
+# TODO 1: trigger this workflow on pull_request events. Cover 'opened' (first
+# push) and 'synchronize' (follow-up pushes to the PR branch). Leave 'closed'
+# off — you don't want to review a PR after it merges.
+on:
+  # TODO 1 — replace this placeholder
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # need full history so the PR diff against the base can be computed
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # TODO 2: install Claude Code. The package lives on npm; install it
+      # globally so the `claude` binary is on PATH for later steps. See the
+      # lab README for the exact package name and flag.
+      - name: Install Claude Code
+        run: echo "replace me"
+
+      - name: Compute PR diff
+        run: |
+          git fetch origin ${{ github.base_ref }}
+          git diff origin/${{ github.base_ref }}...HEAD > pr.diff
+          echo "PR diff size: $(wc -c < pr.diff)"
+
+      # TODO 3: feed pr.diff into `claude -p` with a review prompt. Restrict
+      # Claude to read-only tools so it can't Edit/Write the runner. Cap the
+      # tool-use loop so a runaway prompt doesn't burn unlimited tokens.
+      # Write the output to review.md.
+      #
+      # TODO 4: the step needs access to the Anthropic API key via env:. The
+      # secret name and env var name should match what Claude Code expects.
+      - name: Ask Claude for review
+        # TODO 4 — add env: block here
+        run: echo "replace me"
+
+      - name: Post review as PR comment
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            if (!fs.existsSync('review.md')) {
+              console.log('no review.md — skipping comment');
+              return;
+            }
+            const body = fs.readFileSync('review.md', 'utf8');
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: body
+            });

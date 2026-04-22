@@ -1,0 +1,59 @@
+name: Claude PR review
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Compute PR diff
+        run: |
+          git fetch origin ${{ github.base_ref }}
+          git diff origin/${{ github.base_ref }}...HEAD > pr.diff
+          echo "PR diff size: $(wc -c < pr.diff)"
+
+      - name: Ask Claude for review
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          claude -p "Review this PR diff. Flag bugs, missed edge cases, and tests you'd want added. Be concise — under 400 words. Format as markdown bullets grouped by severity." \
+            --allowedTools "Read,Glob,Grep" \
+            --max-turns 4 \
+            --output-format text < pr.diff > review.md
+
+      - name: Post review as PR comment
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            if (!fs.existsSync('review.md')) {
+              console.log('no review.md — skipping comment');
+              return;
+            }
+            const body = fs.readFileSync('review.md', 'utf8');
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: body
+            });

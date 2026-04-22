@@ -1,0 +1,7 @@
+{
+  "errors": [
+    { "endpoint": "/api/payments", "count": 4, "sample_status": 500 },
+    { "endpoint": "/api/search", "count": 4, "sample_status": 429 },
+    { "endpoint": "/api/checkout", "count": 3, "sample_status": 502 }
+  ]
+}

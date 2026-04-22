@@ -1,0 +1,13 @@
+title: "CI Integration: Claude Reviews Every PR"
+section: "13-cli"
+slug: "lab-03-ci-integration"
+difficulty: intermediate
+est_minutes: 40
+tags:
+  - cli
+  - ci
+  - github-actions
+  - pr-review
+prerequisites:
+  - lab-01-cli-flags-tour
+  - lab-02-scripting-with-claude

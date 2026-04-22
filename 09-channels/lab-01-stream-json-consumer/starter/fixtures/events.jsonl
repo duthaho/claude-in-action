@@ -1,0 +1,8 @@
+{"type":"system","subtype":"init","session_id":"demo-session-1","cwd":"/tmp/demo","tools":["Read","Glob","Grep","Bash"],"model":"claude-opus-4-7"}
+{"type":"assistant","message":{"id":"msg_01","role":"assistant","content":[{"type":"text","text":"I'll check the repository layout first."}],"usage":{"input_tokens":120,"output_tokens":14}}}
+{"type":"assistant","message":{"id":"msg_02","role":"assistant","content":[{"type":"tool_use","id":"tu_01","name":"Glob","input":{"pattern":"**/*.py"}}],"usage":{"input_tokens":120,"output_tokens":22}}}
+{"type":"user","message":{"role":"user","content":[{"type":"tool_result","tool_use_id":"tu_01","content":"src/app.py\nsrc/utils.py\ntests/test_app.py"}]}}
+{"type":"assistant","message":{"id":"msg_03","role":"assistant","content":[{"type":"tool_use","id":"tu_02","name":"Read","input":{"file_path":"/tmp/demo/src/app.py"}}],"usage":{"input_tokens":180,"output_tokens":18}}}
+{"type":"user","message":{"role":"user","content":[{"type":"tool_result","tool_use_id":"tu_02","content":"def main():\n    print('hi')\n"}]}}
+{"type":"assistant","message":{"id":"msg_04","role":"assistant","content":[{"type":"text","text":"Found 3 Python files. The entry point src/app.py has a minimal main() that prints 'hi'. There are two source files and one test file."}],"usage":{"input_tokens":260,"output_tokens":38}}}
+{"type":"result","subtype":"success","is_error":false,"duration_ms":1842,"num_turns":4,"result":"Found 3 Python files. The entry point src/app.py has a minimal main() that prints 'hi'. There are two source files and one test file.","total_cost_usd":0.0042,"usage":{"input_tokens":680,"output_tokens":92}}

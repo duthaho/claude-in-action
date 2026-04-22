@@ -1,0 +1,11 @@
+title: "Consume a stream-json Channel"
+section: "09-channels"
+slug: "lab-01-stream-json-consumer"
+difficulty: intermediate
+est_minutes: 30
+tags:
+  - channels
+  - stream-json
+  - headless
+  - node
+prerequisites: []
