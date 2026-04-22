@@ -1,0 +1,8 @@
+{
+  "name": "quote-of-the-day",
+  "version": "1.0.0",
+  "description": "Adds a /quote command that picks a motivational quote, and a wordcount skill that counts words in a file.",
+  "author": {
+    "name": "claude-in-action"
+  }
+}

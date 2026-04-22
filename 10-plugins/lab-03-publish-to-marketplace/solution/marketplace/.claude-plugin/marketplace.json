@@ -1,0 +1,19 @@
+{
+  "name": "claude-in-action-lab-market",
+  "owner": {
+    "name": "claude-in-action"
+  },
+  "description": "Lab marketplace used by lab-03-publish-to-marketplace. Ships two demo plugins.",
+  "plugins": [
+    {
+      "name": "quote-of-the-day",
+      "source": "./plugins/quote-of-the-day",
+      "description": "Motivational /quote command and a wordcount skill."
+    },
+    {
+      "name": "daily-standup",
+      "source": "./plugins/daily-standup",
+      "description": "Drafts a standup note from yesterday's git commits."
+    }
+  ]
+}

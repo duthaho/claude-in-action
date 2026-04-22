@@ -1,0 +1,14 @@
+{
+  "name": "lab-marketplace",
+  "owner": {
+    "name": "claude-in-action"
+  },
+  "description": "Local marketplace shipped with lab-01-install-a-plugin for offline install practice.",
+  "plugins": [
+    {
+      "name": "greeter",
+      "source": "./plugins/greeter",
+      "description": "Adds a /greet command that says hello."
+    }
+  ]
+}

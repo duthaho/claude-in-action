@@ -1,0 +1,8 @@
+{
+  "name": "daily-standup",
+  "version": "0.1.0",
+  "description": "Adds a /standup command that summarises yesterday's commits and drafts today's goals.",
+  "author": {
+    "name": "claude-in-action"
+  }
+}

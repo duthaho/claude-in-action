@@ -1,0 +1,11 @@
+title: "Publish to a Marketplace"
+section: "10-plugins"
+slug: "lab-03-publish-to-marketplace"
+difficulty: intermediate
+est_minutes: 30
+tags:
+  - plugins
+  - marketplace
+  - publishing
+prerequisites:
+  - lab-02-author-a-plugin

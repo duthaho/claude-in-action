@@ -1,0 +1,8 @@
+{
+  "name": "greeter",
+  "version": "1.0.0",
+  "description": "Adds a /greet command that says hello from the greeter plugin.",
+  "author": {
+    "name": "claude-in-action"
+  }
+}

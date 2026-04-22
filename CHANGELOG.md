@@ -6,6 +6,20 @@ Cadence: one version per planned milestone (v1.0 → v0.1.0, v1.1 → v0.2.0, v1
 
 ## [Unreleased]
 
+## [0.4.0] — 2026-04-22
+
+v1.3 milestone: sections 10 (Plugins), 11 (Checkpoints) built. 5 new labs.
+
+### Added
+
+- **Section 10 — Plugins**: install a bundled `greeter` plugin from a local marketplace, author a `quote-of-the-day` plugin bundling a command and a skill, publish a marketplace listing two plugins.
+- **Section 11 — Checkpoints**: `/rewind` a wrong code change, branch one checkpoint into two parallel implementations and compare.
+
+### Changed
+
+- Sections 10, 11 promoted from stubs to `status: ready`.
+- Top-level README section table marks 10/11 as v1.3 built.
+
 ## [0.3.0] — 2026-04-20
 
 v1.2 milestone: sections 05 (Subagents), 06 (Agent Teams), 08 (Hooks) built. 8 new labs.
@@ -50,7 +64,8 @@ Initial scaffolding release. Repo framework + the first two sections built; sect
 - **Section 01 — Slash Commands** and **Section 02 — Memory**, three labs each.
 - Stubs for sections 03–13.
 
-[Unreleased]: https://github.com/duthaho/claude-in-action/compare/v0.3.0...HEAD
+[Unreleased]: https://github.com/duthaho/claude-in-action/compare/v0.4.0...HEAD
+[0.4.0]: https://github.com/duthaho/claude-in-action/releases/tag/v0.4.0
 [0.3.0]: https://github.com/duthaho/claude-in-action/releases/tag/v0.3.0
 [0.2.0]: https://github.com/duthaho/claude-in-action/releases/tag/v0.2.0
 [0.1.0]: https://github.com/duthaho/claude-in-action/releases/tag/v0.1.0

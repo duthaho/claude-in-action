@@ -48,8 +48,8 @@ bash scripts/new-lab.sh 01-slash-commands lab-99-my-experiment
 | 07 | [MCP](07-mcp/) | v1.1 — built |
 | 08 | [Hooks](08-hooks/) | v1.2 — built |
 | 09 | [Channels](09-channels/) | coming in v2.0 |
-| 10 | [Plugins](10-plugins/) | coming in v1.3 |
-| 11 | [Checkpoints](11-checkpoints/) | coming in v1.3 |
+| 10 | [Plugins](10-plugins/) | v1.3 — built |
+| 11 | [Checkpoints](11-checkpoints/) | v1.3 — built |
 | 12 | [Advanced Features](12-advanced-features/) | coming in v2.0 |
 | 13 | [CLI](13-cli/) | coming in v2.0 |
 
